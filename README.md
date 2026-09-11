@@ -6,9 +6,9 @@
 Official repository for the blood-flow experiments accompanying **Solved in Unit
 Domain: JacobiNet for Differentiable Coordinate Transformations**.
 
-> **Release status:** the public repository structure is ready. Source code,
-> reproducible configurations, and example assets will be added with the first
-> code release.
+> **Release status:** this is a placeholder repository. The complete source
+> code, reproducible configurations, and example assets are scheduled for
+> release on **September 13, 2026**.
 
 ## Overview
 
