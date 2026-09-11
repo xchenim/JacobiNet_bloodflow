@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "JacobiNet Blood Flow"
+type: software
+authors:
+  - given-names: Xi
+    family-names: Chen
+  - given-names: Jianchuan
+    family-names: Yang
+  - given-names: Junjie
+    family-names: Zhang
+  - given-names: Runnan
+    family-names: Yang
+  - given-names: Xu
+    family-names: Liu
+  - given-names: Hong
+    family-names: Wang
+  - given-names: Ziyu
+    family-names: Ren
+  - given-names: Wenqi
+    family-names: Hu
+license: MIT
+repository-code: "https://github.com/xchenim/JacobiNet_bloodflow"
+url: "https://arxiv.org/abs/2508.02537"
+preferred-citation:
+  type: article
+  title: "Solved in Unit Domain: JacobiNet for Differentiable Coordinate Transformations"
+  authors:
+    - given-names: Xi
+      family-names: Chen
+    - given-names: Jianchuan
+      family-names: Yang
+    - given-names: Junjie
+      family-names: Zhang
+    - given-names: Runnan
+      family-names: Yang
+    - given-names: Xu
+      family-names: Liu
+    - given-names: Hong
+      family-names: Wang
+    - given-names: Ziyu
+      family-names: Ren
+    - given-names: Wenqi
+      family-names: Hu
+  year: 2025
+  journal: "arXiv preprint arXiv:2508.02537"
+  url: "https://arxiv.org/abs/2508.02537"

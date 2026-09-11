@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Experiment tracking and generated results
+wandb/
+runs/
+outputs/
+results/
+checkpoints/
+
+# Large model and simulation artifacts
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.cas
+*.dat
+*.msh
+*.vtk
+*.vtu
+*.npz
+
+# Local or restricted datasets (small redistributable examples may live elsewhere)
+data/raw/
+data/private/
+data/interim/
+data/processed/
