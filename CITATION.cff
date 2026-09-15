@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the associated paper."
+message: "This citation describes the JacobiNet coordinate-transform methodology. See the package READMEs for additional source attribution and license scope."
 title: "JacobiNet Blood Flow"
 type: software
 authors:
@@ -19,7 +19,6 @@ authors:
     family-names: Ren
   - given-names: Wenqi
     family-names: Hu
-license: MIT
 repository-code: "https://github.com/xchenim/JacobiNet_bloodflow"
 url: "https://arxiv.org/abs/2508.02537"
 preferred-citation:

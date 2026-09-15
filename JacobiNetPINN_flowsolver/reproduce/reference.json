@@ -1,0 +1,513 @@
+{
+  "scope": "synthetic_100",
+  "cases": {
+    "04956": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 43.519074299955896
+    },
+    "03262": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 32.59316050177407
+    },
+    "00156": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 32.95438851369235
+    },
+    "02813": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 48.588665379366304
+    },
+    "03861": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 38.95900552785474
+    },
+    "04325": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 36.55935173012585
+    },
+    "01013": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 49.5790937373411
+    },
+    "00610": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 43.101986171628525
+    },
+    "04809": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 43.247948322545255
+    },
+    "00433": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 37.52652197295806
+    },
+    "04249": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 81.42715867552211
+    },
+    "04312": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 38.807673936276814
+    },
+    "00370": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 34.454493193066426
+    },
+    "01527": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 37.09450444811401
+    },
+    "01071": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 37.95679586660991
+    },
+    "03409": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 50.03205328252055
+    },
+    "04998": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 36.60954914317823
+    },
+    "02761": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 45.45532177405522
+    },
+    "01015": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 93.01867467020324
+    },
+    "04830": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 47.148646289779634
+    },
+    "04576": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 91.85581705628142
+    },
+    "01916": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 93.292746091061
+    },
+    "01647": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 62.90415635315478
+    },
+    "00134": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 50.19165426960291
+    },
+    "04719": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 133.67093737511448
+    },
+    "04396": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 92.65697013696229
+    },
+    "02361": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 75.9464447630889
+    },
+    "03946": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 64.5789667840118
+    },
+    "02472": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 89.32936738351744
+    },
+    "04828": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 64.82011986647709
+    },
+    "00467": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 55.98687784670816
+    },
+    "04602": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 89.01950880960182
+    },
+    "04970": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 75.40306905251896
+    },
+    "03780": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 98.01483028836836
+    },
+    "01778": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 75.7083991869916
+    },
+    "02947": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 134.33810237071256
+    },
+    "01105": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 92.81965604230946
+    },
+    "02357": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 144.46704837416007
+    },
+    "01585": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 141.11462408763543
+    },
+    "02026": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 96.38474144830306
+    },
+    "02603": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 93.02498084650055
+    },
+    "02277": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 159.7010442462453
+    },
+    "01212": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 108.43070660199767
+    },
+    "04033": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 190.27930477451542
+    },
+    "04301": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 442.7920715547426
+    },
+    "00928": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 100.36055565561439
+    },
+    "03353": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 160.2868141490291
+    },
+    "02773": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 260.22009784950524
+    },
+    "03738": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 187.84526097235718
+    },
+    "01940": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 291.0795398978089
+    },
+    "04202": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 385.32771044600844
+    },
+    "01735": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 320.32113078232067
+    },
+    "02316": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 354.28298359690245
+    },
+    "03889": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 326.36775415853293
+    },
+    "04323": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 307.45413976737814
+    },
+    "01045": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 367.2518674663208
+    },
+    "04238": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 613.4011651990453
+    },
+    "03747": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 506.2706261722552
+    },
+    "00431": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 554.8495075115804
+    },
+    "03141": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 623.2730954981045
+    },
+    "02060": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 775.7083788786607
+    },
+    "00375": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1093.9568349382976
+    },
+    "04613": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 923.7127691623101
+    },
+    "01855": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 982.1635800129604
+    },
+    "02929": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 715.6996904711101
+    },
+    "00635": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 847.3810256885002
+    },
+    "01323": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 701.2813666036845
+    },
+    "03117": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1085.4102616498374
+    },
+    "00757": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1099.0187799418193
+    },
+    "00552": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1192.1153674575767
+    },
+    "04503": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 920.3205350264321
+    },
+    "01614": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1557.9677536980619
+    },
+    "03614": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1240.8237535188714
+    },
+    "03363": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1861.1415219761798
+    },
+    "00035": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1917.133930312939
+    },
+    "03416": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1960.964675148991
+    },
+    "01005": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 3014.785119105697
+    },
+    "03514": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 2848.241766424971
+    },
+    "04027": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 2504.9282243918947
+    },
+    "00936": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1888.5701558658284
+    },
+    "00119": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 2822.2791815102496
+    },
+    "03132": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 4024.721474940261
+    },
+    "04184": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 3924.4170255230665
+    },
+    "03121": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 2894.3185269806636
+    },
+    "00312": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 2081.144158497731
+    },
+    "00907": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 2319.020142941284
+    },
+    "00544": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 3436.4671724612194
+    },
+    "00983": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 1756.11407065237
+    },
+    "02544": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 2365.565149336347
+    },
+    "04848": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 2876.744983210951
+    },
+    "00454": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 4218.758324903845
+    },
+    "00883": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 4586.581021358596
+    },
+    "04143": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 2666.5496364754677
+    },
+    "01044": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 2876.8088166103935
+    },
+    "03736": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 5613.174602830541
+    },
+    "03598": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 1483.370977080224
+    },
+    "01241": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 5426.260697472295
+    },
+    "01242": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 5497.06927338725
+    },
+    "00751": {
+      "field_device": "cpu",
+      "pressure_drop_pa": 3669.412750155131
+    },
+    "00802": {
+      "field_device": "cuda",
+      "pressure_drop_pa": 3115.986632964555
+    }
+  },
+  "table_source": "Manuscript Table 2",
+  "table_rows": [
+    [
+      "Metric (mean ± SD)",
+      "All",
+      "0–24%",
+      "25–49%",
+      "50–69%",
+      "70–99%"
+    ],
+    [
+      "Trans-stenotic pressure-drop error"
+    ],
+    [
+      "Absolute error, Pa",
+      "64.16 ± 168.24",
+      "0.26 ± 0.27",
+      "0.43 ± 0.37",
+      "11.68 ± 20.56",
+      "244.27 ± 266.83"
+    ],
+    [
+      "Absolute percentage error, %",
+      "2.100 ± 4.190",
+      "0.460 ± 0.320",
+      "0.310 ± 0.200",
+      "1.010 ± 1.400",
+      "6.640 ± 6.450"
+    ],
+    [
+      "Regional relative-L₂ error"
+    ],
+    [
+      "Global velocity",
+      "0.095 ± 0.105",
+      "0.027 ± 0.002",
+      "0.031 ± 0.004",
+      "0.084 ± 0.053",
+      "0.237 ± 0.111"
+    ],
+    [
+      "Global pressure",
+      "0.024 ± 0.041",
+      "0.008 ± 0.002",
+      "0.007 ± 0.002",
+      "0.013 ± 0.013",
+      "0.067 ± 0.064"
+    ],
+    [
+      "Throat velocity",
+      "0.046 ± 0.028",
+      "0.025 ± 0.002",
+      "0.027 ± 0.003",
+      "0.046 ± 0.012",
+      "0.087 ± 0.020"
+    ],
+    [
+      "Throat pressure",
+      "0.028 ± 0.043",
+      "0.011 ± 0.003",
+      "0.013 ± 0.006",
+      "0.018 ± 0.012",
+      "0.071 ± 0.068"
+    ],
+    [
+      "Post-stenotic recirculation velocity a",
+      "0.173 ± 0.153",
+      "—",
+      "0.040 ± 0.006",
+      "0.108 ± 0.073",
+      "0.306 ± 0.151"
+    ],
+    [
+      "Post-stenotic recirculation pressure a",
+      "0.171 ± 0.137",
+      "—",
+      "0.062 ± 0.016",
+      "0.157 ± 0.095",
+      "0.242 ± 0.163"
+    ],
+    [
+      "WSS error"
+    ],
+    [
+      "Relative-L₂",
+      "0.034 ± 0.039",
+      "0.014 ± 0.005",
+      "0.014 ± 0.005",
+      "0.033 ± 0.032",
+      "0.077 ± 0.049"
+    ],
+    [
+      "Low-WSS area error, pp b",
+      "0.425 ± 0.806",
+      "0.032 ± 0.069",
+      "0.296 ± 0.540",
+      "0.871 ± 1.229",
+      "0.499 ± 0.647"
+    ],
+    [
+      "High-WSS area error, pp b",
+      "1.274 ± 2.106",
+      "0.180 ± 0.260",
+      "0.300 ± 0.682",
+      "1.360 ± 1.757",
+      "3.257 ± 2.834"
+    ]
+  ]
+}

@@ -6,3 +6,4 @@
 *.pdf binary
 *.npy binary
 *.npz binary
+AttentionCNN_3Dreconstruction/weights/attentioncnn.pt filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+outputs/
+.pytest_cache/
+
+# Distributed reference weights
+!weights/**/*.pt
+!weights/**/*.pth

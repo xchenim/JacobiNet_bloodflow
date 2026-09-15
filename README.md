@@ -1,80 +1,59 @@
-# JacobiNet Blood Flow
+# JacobiNet blood-flow modeling
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/arXiv-2508.02537-b31b1b.svg)](https://arxiv.org/abs/2508.02537)
+Research code for three-dimensional coronary reconstruction and physics-informed
+blood-flow modeling.
 
-Official repository for the blood-flow experiments accompanying **Solved in Unit
-Domain: JacobiNet for Differentiable Coordinate Transformations**.
+## Code packages
 
-> **Release status:** this is a placeholder repository. The complete source
-> code, reproducible configurations, and example assets are scheduled for
-> release on **September 13, 2026**.
+| Package | Purpose |
+|---|---|
+| [AttentionCNN_3Dreconstruction](AttentionCNN_3Dreconstruction/README.md) | Reconstruct vessel coordinates and radii from paired projection images. |
+| [JacobiNetPINN_flowsolver](JacobiNetPINN_flowsolver/README.md) | Train and evaluate JacobiNet coordinates and the physics-informed flow model. |
+| [RCA_generator](RCA_generator/README.md) | Generate synthetic single-RCA geometry and paired projection images. |
 
-## Overview
+The model packages include their reference weights and reproduction entrypoints.
+See each package README for the tested environment, installation, inputs, outputs,
+and training commands.
 
-JacobiNet learns continuous, differentiable coordinate transformations from
-irregular physical domains to a shared unit domain. The blood-flow experiments
-couple the learned mapping with physics-informed neural networks (PINNs) for the
-two-dimensional incompressible steady Navier--Stokes equations in vessel-like
-geometries.
+## Download
 
-The first complete release is planned to include:
+The AttentionCNN checkpoint uses Git LFS:
 
-- geometry preprocessing and coordinate-pair generation;
-- JacobiNet training and inference;
-- PINN-based blood-flow prediction;
-- configurations for stenosis and aneurysm experiments;
-- evaluation and visualization scripts; and
-- small examples or download instructions for larger datasets and checkpoints.
-
-## Repository layout
-
-```text
-JacobiNet_bloodflow/
-|-- src/          # Model, physics, data, and utility modules
-|-- configs/      # Reproducible experiment configurations
-|-- examples/     # Small end-to-end examples
-|-- tests/        # Automated tests
-|-- data/         # Data documentation and small tracked assets
-|-- docs/         # Extended documentation and release checklist
-`-- .github/      # Contribution templates
+```bash
+git lfs install
+git clone https://github.com/xchenim/JacobiNet_bloodflow.git
+cd JacobiNet_bloodflow
+git lfs pull
 ```
 
-## Getting started
+## Reproduce the supplied cohort
 
-Installation and reproduction commands will be finalized together with the
-source release so that they match the tested environment exactly. Until then,
-please watch the repository for the first tagged release.
+The `synthetic_100` dataset is required for the 100-case evaluation and is not
+included in this code upload. Place it beside the three package folders, install
+the dependencies in the corresponding README, and run:
 
-## Reproducibility policy
-
-Each published experiment should include its configuration, random seed, input
-data provenance, checkpoint or checkpoint-download instructions, and an
-evaluation command. Large generated files and private or restricted datasets
-must not be committed to Git history.
-
-## Citation
-
-If you use this work, please cite:
-
-```bibtex
-@article{chen2025jacobinet,
-  title   = {Solved in Unit Domain: JacobiNet for Differentiable Coordinate Transformations},
-  author  = {Chen, Xi and Yang, Jianchuan and Zhang, Junjie and Yang, Runnan and Liu, Xu and Wang, Hong and Ren, Ziyu and Hu, Wenqi},
-  journal = {arXiv preprint arXiv:2508.02537},
-  year    = {2025},
-  url     = {https://arxiv.org/abs/2508.02537}
-}
+```bash
+python AttentionCNN_3Dreconstruction/reproduce/evaluate.py --output-root outputs/reconstruction_100
+python JacobiNetPINN_flowsolver/reproduce/evaluate.py --output-root outputs/flow_100
 ```
 
-Citation metadata is also available in [CITATION.cff](CITATION.cff).
+Use new output directories outside the code and input data. These entrypoints
+evaluate the supplied cohort; they do not generate meshes or solve new CFD cases.
 
-## Contributing and support
+## License scope
 
-Bug reports and focused contributions are welcome. Please read
-[CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. For security
-issues, follow [SECURITY.md](SECURITY.md) instead of filing a public issue.
+The [MIT license](LICENSE), attributed to **Xi Chen, et al.**, applies to authorized
+project-owned code. Dependencies retain their licenses.
 
-## License
+`RCA_generator` adapts the upstream vessel generator accompanying Iyer et al.,
+*A multi-stage neural network approach for coronary 3D reconstruction from
+uncalibrated X-ray angiography images*. Its inherited code and control-point
+assets retain academic/non-commercial terms. See its [license scope](RCA_generator/LICENSE)
+and [third-party notices](RCA_generator/NOTICE.md). The repository must not be
+treated as entirely MIT-licensed.
 
-This project is released under the [MIT License](LICENSE).
+## Related methodology
+
+[CITATION.cff](CITATION.cff) records the JacobiNet coordinate-transform methodology,
+*Solved in Unit Domain: JacobiNet for Differentiable Coordinate Transformations*.
+For the generator's upstream attribution, see the [RCA package README](RCA_generator/README.md).
