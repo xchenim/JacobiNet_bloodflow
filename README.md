@@ -3,13 +3,14 @@
 Research code for three-dimensional coronary reconstruction and physics-informed
 blood-flow modeling.
 
-## Code packages
+## Code packages and data
 
-| Package | Purpose |
+| Resource | Purpose |
 |---|---|
 | [AttentionCNN_3Dreconstruction](AttentionCNN_3Dreconstruction/README.md) | Reconstruct vessel coordinates and radii from paired projection images. |
 | [JacobiNetPINN_flowsolver](JacobiNetPINN_flowsolver/README.md) | Train and evaluate JacobiNet coordinates and the physics-informed flow model. |
 | [RCA_generator](RCA_generator/README.md) | Generate synthetic single-RCA geometry and paired projection images. |
+| [synthetic_100 dataset](https://huggingface.co/datasets/Xi-UST/JacobiNet_bloodflow/tree/main) | 100 synthetic cases with paired projections, geometry, CFD results, and evaluation references. Hosted on Hugging Face; see [data setup](data/README.md). |
 
 The model packages include their reference weights and reproduction entrypoints.
 See each package README for the tested environment, installation, inputs, outputs,
@@ -28,9 +29,10 @@ git lfs pull
 
 ## Reproduce the supplied cohort
 
-The `synthetic_100` dataset is required for the 100-case evaluation and is not
-included in this code upload. Place it beside the three package folders, install
-the dependencies in the corresponding README, and run:
+Download the [`synthetic_100` dataset](https://huggingface.co/datasets/Xi-UST/JacobiNet_bloodflow/tree/main)
+from Hugging Face and place its `synthetic_100/` directory beside the three code
+packages (see [data setup](data/README.md)). Install the dependencies in the
+corresponding package README, then run:
 
 ```bash
 python AttentionCNN_3Dreconstruction/reproduce/evaluate.py --output-root outputs/reconstruction_100
