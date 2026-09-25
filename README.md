@@ -22,19 +22,12 @@ See [Citation](#citation) for the BibTeX entries.
 
 <p align="justify">
 <img src="assets/overview.png" alt="Coronary stenosis assessment and the proposed angiography-to-hemodynamics framework"><br>
-<sub>
-<strong>Coronary stenosis assessment and the proposed physics-informed framework.</strong>
-<strong>(a)</strong> Pressure-wire FFR measurement. <strong>(b)</strong> Dual-view angiography.
-<strong>(c)</strong> Patient-specific 3D reconstruction, hemodynamic modeling, FFR estimation,
-and virtual stent assessment (<strong>17.2 ± 0.68 min/patient</strong>).
-</sub>
+<img src="assets/overview-caption.svg" width="100%" alt="Figure 1. Coronary stenosis assessment and the proposed physics-informed framework. (a) Pressure-wire FFR measurement. (b) Dual-view angiography. (c) Patient-specific 3D reconstruction, hemodynamic modeling, FFR estimation, and virtual stent assessment (17.2 ± 0.68 min/patient).">
 </p>
 
 <p align="justify">
 <img src="assets/architecture.png" alt="Architecture of the proposed learning-based framework for coronary geometry reconstruction and hemodynamic modeling"><br>
-<sub>
-<strong>Architecture of the proposed learning-based framework for coronary geometry reconstruction and hemodynamic modeling.</strong>
-</sub>
+<img src="assets/architecture-caption.svg" width="100%" alt="Figure 2. Architecture of the proposed learning-based framework for coronary geometry reconstruction and hemodynamic modeling.">
 </p>
 
 ## Code packages and data

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="64" viewBox="0 0 840 64" role="img">
+  <title>Figure 1. Coronary stenosis assessment and the proposed physics-informed framework. (a) Pressure-wire FFR measurement. (b) Dual-view angiography. (c) Patient-specific 3D reconstruction, hemodynamic modeling, FFR estimation, and virtual stent assessment (17.2 ± 0.68 min/patient).</title>
+  <rect width="840" height="64" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2328">
+    <text y="16">
+      <tspan x="0.000" font-weight="400">Figure </tspan>
+      <tspan x="52.667" font-weight="400">1. </tspan>
+      <tspan x="76.333" font-weight="700">Coronary </tspan>
+      <tspan x="151.000" font-weight="700">stenosis </tspan>
+      <tspan x="221.667" font-weight="700">assessment </tspan>
+      <tspan x="315.333" font-weight="700">and </tspan>
+      <tspan x="353.000" font-weight="700">the </tspan>
+      <tspan x="386.667" font-weight="700">proposed </tspan>
+      <tspan x="464.333" font-weight="700">physics-informed </tspan>
+      <tspan x="596.000" font-weight="700">framework. </tspan>
+      <tspan x="682.667" font-weight="700">(a) </tspan>
+      <tspan x="712.333" font-weight="400">Pressure-wire </tspan>
+      <tspan x="812.000" font-weight="400">FFR</tspan>
+    </text>
+    <text y="36">
+      <tspan x="0.000" font-weight="400">measurement. </tspan>
+      <tspan x="99.168" font-weight="700">(b) </tspan>
+      <tspan x="125.336" font-weight="400">Dual-view </tspan>
+      <tspan x="194.504" font-weight="400">angiography. </tspan>
+      <tspan x="284.656" font-weight="700">(c) </tspan>
+      <tspan x="309.824" font-weight="400">Patient-specific </tspan>
+      <tspan x="412.992" font-weight="400">3D </tspan>
+      <tspan x="438.160" font-weight="400">reconstruction, </tspan>
+      <tspan x="539.328" font-weight="400">hemodynamic </tspan>
+      <tspan x="635.496" font-weight="400">modeling, </tspan>
+      <tspan x="704.664" font-weight="400">FFR </tspan>
+      <tspan x="739.832" font-weight="400">estimation, </tspan>
+      <tspan x="816.000" font-weight="400">and</tspan>
+    </text>
+    <text y="56">
+      <tspan x="0.000" font-weight="400">virtual </tspan>
+      <tspan x="42.000" font-weight="400">stent </tspan>
+      <tspan x="77.000" font-weight="400">assessment </tspan>
+      <tspan x="157.000" font-weight="400">(</tspan>
+      <tspan x="162.000" font-weight="700">17.2 </tspan>
+      <tspan x="194.000" font-weight="700">± </tspan>
+      <tspan x="206.000" font-weight="700">0.68 </tspan>
+      <tspan x="238.000" font-weight="700">min/patient</tspan>
+      <tspan x="315.000" font-weight="400">).</tspan>
+    </text>
+  </g>
+</svg>
