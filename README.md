@@ -18,6 +18,20 @@ the JacobiNet coordinate-transform methodology:
 If you use this code in your research, please **cite both papers**.
 See [Citation](#citation) for the BibTeX entries.
 
+## Overview
+
+![Coronary stenosis assessment and the proposed angiography-to-hemodynamics framework](assets/overview.png)
+
+**Overview of coronary stenosis assessment and the proposed physics-informed deep learning framework.**
+**(a)** Atherosclerotic stenosis and invasive pressure-wire assessment of fractional
+flow reserve (FFR), defined as distal coronary pressure divided by aortic pressure.
+**(b)** C-arm coronary angiography, common right coronary artery (RCA) viewing
+angles, and corresponding 2D projections.
+**(c)** Manually segmented dual-view angiograms enable patient-specific 3D
+centerline and radius reconstruction, followed by multi-condition hemodynamic
+modeling, non-invasive FFR estimation, and proof-of-concept virtual stent
+assessment. The complete workflow takes **17.2 ± 0.68 minutes per patient**.
+
 ## Code packages and data
 
 | Resource | Purpose |
