@@ -3,6 +3,21 @@
 Research code for three-dimensional coronary reconstruction and physics-informed
 blood-flow modeling.
 
+## Papers
+
+This repository accompanies the blood-flow modeling paper below and builds on
+the JacobiNet coordinate-transform methodology:
+
+1. **Blood-flow modeling paper (arXiv)**:
+   [Physics-Informed Hemodynamic Modeling for Data-Free Prediction and Sparse-Data Assimilation](https://arxiv.org/abs/2609.19290).
+   Xi Chen et al., arXiv:2609.19290, 2026.
+2. **JacobiNet methodology paper (JCP)**:
+   [Solved in unit domain: JacobiNet for differentiable coordinate-transformed PINNs](https://doi.org/10.1016/j.jcp.2026.115074).
+   Xi Chen et al., *Journal of Computational Physics*, 563, 115074, 2026.
+
+If you use this code in your research, please **cite both papers**.
+See [Citation](#citation) for the BibTeX entries.
+
 ## Code packages and data
 
 | Resource | Purpose |
@@ -54,8 +69,42 @@ assets retain academic/non-commercial terms. See its [license scope](RCA_generat
 and [third-party notices](RCA_generator/NOTICE.md). The repository must not be
 treated as entirely MIT-licensed.
 
-## Related methodology
+## Citation
 
-[CITATION.cff](CITATION.cff) records the JacobiNet coordinate-transform methodology,
-*Solved in Unit Domain: JacobiNet for Differentiable Coordinate Transformations*.
+If you use this code in your research, please cite both papers below.
+
+### 1. Blood-flow modeling (arXiv)
+
+```bibtex
+@misc{chen2026hemodynamic,
+  title         = {Physics-Informed Hemodynamic Modeling for Data-Free Prediction and Sparse-Data Assimilation},
+  author        = {Chen, Xi and Yang, Jianchuan and Li, Hongde and He, Guangxin
+                   and Ye, Qiuyu and Luo, Qiang and Chen, Mao and Hu, Wenqi},
+  year          = {2026},
+  eprint        = {2609.19290},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.IV},
+  doi           = {10.48550/arXiv.2609.19290},
+  url           = {https://arxiv.org/abs/2609.19290}
+}
+```
+
+### 2. JacobiNet methodology (JCP)
+
+```bibtex
+@article{chen2026jacobinet,
+  title   = {Solved in unit domain: {JacobiNet} for differentiable coordinate-transformed {PINNs}},
+  author  = {Chen, Xi and Yang, Jianchuan and Zhang, Junjie and Yang, Runnan
+             and Liu, Xu and Wang, Hong and Zheng, Tinghui and Ren, Ziyu and Hu, Wenqi},
+  journal = {Journal of Computational Physics},
+  volume  = {563},
+  pages   = {115074},
+  year    = {2026},
+  doi     = {10.1016/j.jcp.2026.115074},
+  url     = {https://doi.org/10.1016/j.jcp.2026.115074}
+}
+```
+
+[CITATION.cff](CITATION.cff) records the blood-flow modeling paper as the preferred
+citation and the JCP methodology paper as a related reference.
 For the generator's upstream attribution, see the [RCA package README](RCA_generator/README.md).

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "This citation describes the JacobiNet coordinate-transform methodology. See the package READMEs for additional source attribution and license scope."
+message: "If you use this code in your research, please cite both the blood-flow modeling paper in preferred-citation and the JCP methodology paper in references. BibTeX entries for both papers are in the README. See the package READMEs for additional source attribution and license scope."
 title: "JacobiNet Blood Flow"
 type: software
 authors:
@@ -20,27 +20,56 @@ authors:
   - given-names: Wenqi
     family-names: Hu
 repository-code: "https://github.com/xchenim/JacobiNet_bloodflow"
-url: "https://arxiv.org/abs/2508.02537"
+url: "https://arxiv.org/abs/2609.19290"
 preferred-citation:
   type: article
-  title: "Solved in Unit Domain: JacobiNet for Differentiable Coordinate Transformations"
+  title: "Physics-Informed Hemodynamic Modeling for Data-Free Prediction and Sparse-Data Assimilation"
   authors:
     - given-names: Xi
       family-names: Chen
     - given-names: Jianchuan
       family-names: Yang
-    - given-names: Junjie
-      family-names: Zhang
-    - given-names: Runnan
-      family-names: Yang
-    - given-names: Xu
-      family-names: Liu
-    - given-names: Hong
-      family-names: Wang
-    - given-names: Ziyu
-      family-names: Ren
+    - given-names: Hongde
+      family-names: Li
+    - given-names: Guangxin
+      family-names: He
+    - given-names: Qiuyu
+      family-names: Ye
+    - given-names: Qiang
+      family-names: Luo
+    - given-names: Mao
+      family-names: Chen
     - given-names: Wenqi
       family-names: Hu
-  year: 2025
-  journal: "arXiv preprint arXiv:2508.02537"
-  url: "https://arxiv.org/abs/2508.02537"
+  year: 2026
+  journal: "arXiv preprint arXiv:2609.19290"
+  doi: "10.48550/arXiv.2609.19290"
+  url: "https://arxiv.org/abs/2609.19290"
+references:
+  - type: article
+    title: "Solved in unit domain: JacobiNet for differentiable coordinate-transformed PINNs"
+    authors:
+      - given-names: Xi
+        family-names: Chen
+      - given-names: Jianchuan
+        family-names: Yang
+      - given-names: Junjie
+        family-names: Zhang
+      - given-names: Runnan
+        family-names: Yang
+      - given-names: Xu
+        family-names: Liu
+      - given-names: Hong
+        family-names: Wang
+      - given-names: Tinghui
+        family-names: Zheng
+      - given-names: Ziyu
+        family-names: Ren
+      - given-names: Wenqi
+        family-names: Hu
+    year: 2026
+    journal: "Journal of Computational Physics"
+    volume: "563"
+    start: "115074"
+    doi: "10.1016/j.jcp.2026.115074"
+    url: "https://doi.org/10.1016/j.jcp.2026.115074"
